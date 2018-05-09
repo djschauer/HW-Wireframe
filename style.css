@@ -5,6 +5,7 @@ body {
     width: 960px;
     font-size: 18px;
     text-align: center;
+    overflow: auto;
 }
 
 header {
@@ -44,22 +45,24 @@ article {
     background: #ebebeb;
     color: #777;
     margin: 10px;
-    overflow: auto;
+    padding: 20px;
 }
 
 #p {
     background: #ebebeb;
     color: #777;
     margin: 10px;
-    overflow: auto;
     padding: 20px;
 }
 
 aside {
     background: #ebebeb;
-    width: 400px;
+    
     float: left;
-    margin 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
 }
 
 footer {
